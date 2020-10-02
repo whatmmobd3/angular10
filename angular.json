@@ -62,7 +62,9 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "youtube-ang:build"
+            "browserTarget": "youtube-ang:build",
+            "host": "0.0.0.0",
+            "port": 5500
           },
           "configurations": {
             "production": {

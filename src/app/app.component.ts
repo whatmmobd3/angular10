@@ -19,4 +19,7 @@ export class AppComponent {
   };
 
   arr=['david','ddnn2026','american']
+
+  siteUrl = window.location.href
+  
 }
